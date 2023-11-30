@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: rgb(15 23 42);
+  cursor: grab;
+  height: 10px;
+}
+.swiper-scrollbar-drag {
+  background-color: rgb(12 74 110);
+}
+
+.swiper-slide {
+  width: auto;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background-color: rgb(2 6 23) !important;
+  max-width: 800px !important;
+}
